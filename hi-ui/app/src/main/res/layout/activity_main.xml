@@ -20,6 +20,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/tv_hi_taptop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="onClick"
+        android:text="HiTapTop"
+        android:textColor="#0077cc"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_tab_bottom" />
+
+    <TextView
         android:id="@+id/tv_hi_refresh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,7 +43,8 @@
         android:textSize="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_tab_bottom" />
+        app:layout_constraintTop_toBottomOf="@id/tv_hi_taptop" />
+
 
     <TextView
         android:id="@+id/tv_hi_banner"
@@ -44,19 +58,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_hi_refresh" />
-
-
-    <TextView
-        android:id="@+id/tv_hi_taptop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:onClick="onClick"
-        android:text="HiTapTop"
-        android:textColor="#0077cc"
-        android:textSize="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_hi_banner" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

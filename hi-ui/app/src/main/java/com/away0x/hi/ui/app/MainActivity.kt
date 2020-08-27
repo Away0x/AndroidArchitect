@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.away0x.hi.ui.app.demo.banner.HiBannerDemoActivity
 import com.away0x.hi.ui.app.demo.refresh.HiRefreshDemoActivity
 import com.away0x.hi.ui.app.demo.tab.HiTabBottomDemoActivity
 import com.away0x.hi.ui.app.demo.tab.HiTabTopDemoActivity
@@ -24,6 +25,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.tv_hi_refresh -> {
                 startActivity(Intent(this, HiRefreshDemoActivity::class.java))
+            }
+            R.id.tv_hi_banner -> {
+                startActivity(Intent(this, HiBannerDemoActivity::class.java))
             }
         }
     }
