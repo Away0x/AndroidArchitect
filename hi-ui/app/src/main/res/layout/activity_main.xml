@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:onClick="onClick"
-        android:text="HiTapTop"
+        android:text="HiTabTop"
         android:textColor="#0077cc"
         android:textSize="20dp"
         app:layout_constraintLeft_toLeftOf="parent"

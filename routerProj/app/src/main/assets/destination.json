@@ -1,0 +1,23 @@
+{
+	"main/tabs/dashboard":{
+		"asStarter":false,
+		"clazName":"com.away0x.com.router.proj.ui.dashboard.DashboardFragment",
+		"pageUrl":"main/tabs/dashboard",
+		"id":1197613396,
+		"destType":"fragment"
+	},
+	"main/tabs/home":{
+		"asStarter":true,
+		"clazName":"com.away0x.com.router.proj.ui.home.HomeFragment",
+		"pageUrl":"main/tabs/home",
+		"id":2139503896,
+		"destType":"fragment"
+	},
+	"main/tabs/notification":{
+		"asStarter":false,
+		"clazName":"com.away0x.com.router.proj.ui.notifications.NotificationsFragment",
+		"pageUrl":"main/tabs/notification",
+		"id":1002884604,
+		"destType":"fragment"
+	}
+}
