@@ -72,10 +72,11 @@ class MainActivityLogic(private val activityProvider: ActivityProvider) {
 
         hiTabBottomLayout.inflateInfo(infoList.toList())
         initFragmentTabView()
-        hiTabBottomLayout.defaultSelected(homeTabInfo)
+
         hiTabBottomLayout.addTabSelectedChangeListener { index, _, _ ->
             fragmentTabView.currentItem = index
         }
+        hiTabBottomLayout.defaultSelected(homeTabInfo)
     }
 
     private fun initFragmentTabView() {

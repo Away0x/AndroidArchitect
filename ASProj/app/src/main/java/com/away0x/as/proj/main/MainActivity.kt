@@ -2,6 +2,7 @@ package com.away0x.`as`.proj.main
 
 import android.os.Bundle
 import com.away0x.`as`.proj.common.ui.component.HiBaseActivity
+import com.away0x.`as`.proj.main.R
 import com.away0x.`as`.proj.main.logic.MainActivityLogic
 
 class MainActivity : HiBaseActivity(), MainActivityLogic.ActivityProvider {
