@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.away0x.hi.library.app.demo.HiExecutorDemoActivity
 import com.away0x.hi.library.app.demo.HiLogDemoActivity
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -16,6 +17,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         when (v!!.id) {
             R.id.tv_log -> {
                 startActivity(Intent(this, HiLogDemoActivity::class.java))
+            }
+            R.id.tv_executor -> {
+                startActivity(Intent(this, HiExecutorDemoActivity::class.java))
             }
         }
     }

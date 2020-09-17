@@ -26,11 +26,11 @@ class MApplication : Application() {
             }
 
             override fun includeThread(): Boolean {
-                return true
+                return false
             }
 
             override fun stackTraceDepth(): Int {
-                return 5
+                return 0
             }
         }, HiConsolePrinter())
     }
