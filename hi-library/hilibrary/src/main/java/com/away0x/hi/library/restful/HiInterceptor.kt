@@ -2,6 +2,9 @@ package com.away0x.hi.library.restful
 
 import com.away0x.hi.library.restful.model.HiResponse
 
+/**
+ * 拦截器
+ */
 interface HiInterceptor {
     fun intercept(chain: Chain): Boolean
 
@@ -13,9 +16,8 @@ interface HiInterceptor {
 
         fun request(): HiRequest
 
-
         /**
-         * 这个response对象 在网络发起之前 ，是为空的
+         * 这个 response 对象 在请求发起之前 ，是为空的
          */
         fun response(): HiResponse<*>?
 

@@ -23,12 +23,12 @@ open class HiResponse<T> {
         const val RC_AUTH_TOKEN_INVALID = 4031 // 访问Token不正确，请重新设置
     }
 
-    var rawData: String? = null//原始数据
-    var code = 0//业务状态码
-    var data: T? = null//业务数据
-    var errorData: Map<String, String>? = null //错误状态下的数据
+    var rawData: String? = null // 原始数据
+    var code = 0 // 业务状态码
+    var data: T? = null // 业务数据
+    var errorData: Map<String, String>? = null // 错误状态下的数据
 
-    var msg: String? = null//错误信息
+    var msg: String? = null // 错误信息
 
     fun successful(): Boolean {
         return code == SUCCESS || code == CACHE_SUCCESS

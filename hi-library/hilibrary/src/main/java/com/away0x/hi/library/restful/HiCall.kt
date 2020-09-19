@@ -10,9 +10,7 @@ interface HiCall<T>{
 
     fun enqueue(callback: HiCallback<T>)
 
-
     interface Factory{
-
-        fun newCall(request:HiRequest):HiCall<*>
+        fun newCall(request:HiRequest): HiCall<*>
     }
 }
